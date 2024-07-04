@@ -1,0 +1,104 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Mtitle {
+    font-size: 33px;
+    font-weight: bold;
+    color:blanchedalmond;
+    margin-top: 30px;
+}
+
+div {
+    margin: 0 0 1px 0;
+    padding: 0;
+}
+
+#Header {
+    padding-top: 1px;
+    padding-left: 5%;
+    background-color: cornflowerblue;
+    height: 100px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#nav {
+    display: grid;
+
+    grid-template-columns: 28% 28% 34%;
+    width: 100%;
+}
+
+.btn {
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 60px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: black;
+    transition: 1s;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+.img {
+    width: 100%;
+}
+
+#topic {
+    height: 100%;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#contact {
+    background-color: #d8d4009c;
+    height: 100%;
+}
+
+.Ctext {
+    margin: 5px;
+}
+
+.contactUs {
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.backtotop {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:cornflowerblue;
+    transition: 0.5s;
+}
+
+.backtotop:hover {
+    transition: 1s;
+    color: black;
+}
+
+.Asian {
+    font-size: 18px;
+    font-weight: 600;
+}
